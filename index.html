@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <title>Candado especialmente para ti,NCOC — Fecha Secreta</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="wrap" id="app">
+    <h1>Ingresa la fecha correcta…</h1>
+    <div class="subtitle">Pon el <strong>día</strong>, <strong>mes</strong> y <strong>año</strong></div>
+
+    <div class="lock">
+      <img src="https://cdn-icons-png.flaticon.com/512/6802/6802552.png" alt="Candado de corazón" />
+      <div class="panel">
+        <div class="dial" data-type="dia">
+          <button class="btn up">▲</button>
+          <div class="value" data-value>00</div>
+          <button class="btn down">▼</button>
+          <div class="label">Día</div>
+        </div>
+        <div class="dial" data-type="mes">
+          <button class="btn up">▲</button>
+          <div class="value" data-value>00</div>
+          <button class="btn down">▼</button>
+          <div class="label">Mes</div>
+        </div>
+        <div class="dial" data-type="anio">
+          <button class="btn up">▲</button>
+          <div class="value" data-value>00</div>
+          <button class="btn down">▼</button>
+          <div class="label">Año</div>
+        </div>
+      </div>
+    </div>
+
+    <p class="hint">Pista: La fecha de tu nacimiento💘</p>
+    <div class="success" id="ok">¡Correcto! El candado se ha desbloqueado ❤️</div>
+  </div>
+
+  <!-- Sección de recuerdos mejorada -->
+  <div class="recuerdos" id="recuerdos">
+    <button class="close-btn" id="close-btn">
+      <i class="fas fa-times"></i>
+    </button>
+
+    <audio id="musica-fondo" loop preload="auto">
+    <source src="Solamente_tu.mp3" type="audio/mpeg">
+    </audio>
+
+
+    <div class="heart-decoration">
+      <i class="fas fa-heart"></i>
+    </div>
+    <div class="heart-decoration">
+      <i class="fas fa-heart"></i>
+    </div>
+    <div class="heart-decoration">
+      <i class="fas fa-heart"></i>
+    </div>
+    <div class="heart-decoration">
+      <i class="fas fa-heart"></i>
+    </div>
+
+    <div class="recuerdos-content">
+      <div class="recuerdos-card">
+        <h2>Tú mejor versión</h2>
+        <div class="carousel">
+          <div class="carousel-inner">
+            <img src="Foto1.jpeg" alt="Recuerdo 1" />
+            <img src="Foto2.jpeg" alt="Recuerdo 2" />
+           <img src="Foto3.jpeg" alt="Recuerdo 3" />
+            <img src="Foto4.jpeg" alt="Recuerdo 4 " />
+            
+          </div>
+        </div>
+      </div>
+
+      <!-- Nueva sección de tiempo juntos -->
+      <div class="tiempo-juntos-card">
+        <h2>Cuánto tiempo pasó</h2>
+        <div class="profile-photo">
+          <img src="https://i.pinimg.com/originals/3e/8f/85/3e8f85a5c1c5c17f684206a20a7787c0.gif" alt="Nuestra foto" />
+        </div>
+        <div class="contador-tiempo">
+          <div class="tiempo-item">
+            <span class="numero" id="anos">0</span>
+            <span class="etiqueta">Años</span>
+          </div>
+          <div class="tiempo-item">
+            <span class="numero" id="meses">0</span>
+            <span class="etiqueta">Meses</span>
+          </div>
+          <div class="tiempo-item">
+            <span class="numero" id="dias">0</span>
+            <span class="etiqueta">Días</span>
+          </div>
+          <div class="tiempo-item">
+            <span class="numero" id="horas">0</span>
+            <span class="etiqueta">Horas</span>
+          </div>
+          <div class="tiempo-item">
+            <span class="numero" id="minutos">0</span>
+            <span class="etiqueta">Minutos</span>
+          </div>
+          <div class="tiempo-item">
+            <span class="numero" id="segundos">0</span>
+            <span class="etiqueta">Segundos</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Nueva sección de carta de amor -->
+      <div class="carta-amor-card">
+        <h2> Esta carta es especialmente para ti, mi amor bonito Jimena ♥</h2>
+        <div class="carta-container">
+          <img src="https://img1.picmix.com/output/stamp/normal/1/9/0/1/1891091_77552.gif" alt="Carta de amor"
+            class="carta-imagen" id="carta-imagen" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal de carta de amor -->
+  <div class="carta-modal" id="carta-modal">
+    <div class="carta-modal-content">
+      <button class="carta-close-btn" id="carta-close-btn">×</button>
+      <div class="carta-texto">
+  <p>Eres demasiado importante para mí, Jimena Carmen ♥ </p>
+
+  <p>Lo que me gustaría transmitirte por aquí, es todo lo que lo que he estado sintiendo por aquí y quiero compartirtelo de una forma diferente en la cual lo puedas apreciar mejor, porque poco a poco estás haciendo que me enamore de ti, en tan poco tiempo. </p>
+
+<p>Te estás volviendo demasiado importante para mí con el transcurso de los días que pasan. Sé que todo fue muy rápido lo nuestro y hay mucha razón que fue la conexión, pero no solo es eso, sino en la química que tenemos mientras conversamos, en los gustos que tenemos en común y aunque no siempre pensemos de manera igual, eso es lo que nos complementa ♥.</p>
+
+<p>Deseo muchísimo que estés en mi vida, en mi presente y futuro, porque realmente te quiero más de lo que te puedas imaginar y trato de demostrarlo de una manera distinta a lo que hayas podido ver.</p>
+<p> Realmente eres una mujer increíble y quiero seguir conquistándote cada día para que puedas estar feliz y cómoda a mi lado. Te quiero muchísimo, mi amor ♥. </p>
+<br>
+<p>JCFB♥</p>
+
+  <p>Con mucho amor para ti..</p>
+  <p>Fernando Williams Barreto Arenas </p>
+</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
